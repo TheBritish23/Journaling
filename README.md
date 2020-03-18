@@ -10,11 +10,12 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _1. Download Git Repository_
+* _2. Create local and Remote Repository_
+* _3. Create Atom file_
+* _4. Make supporting HTML, JS, and CSS files_
+* _5. Download all NPM installs and Webpacks_
+* _6. Download Git_
 
 ## Known Bugs
 
