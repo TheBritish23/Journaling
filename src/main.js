@@ -1,4 +1,4 @@
-import { Journal } from './journal';
+import { journal } from './journal';
 import './styles.css';
 
 
@@ -7,3 +7,10 @@ import './styles.css';
 $(document).ready(function() {
   $('#writing').submit(function(event) {
     event.preventDefault();
+    var goal = $('#goal').val();
+    var output = p\(goal);
+    output.forEach(function(element) {
+      $('#instructions').append("<li>" + element + "</li>");
+    });
+  });
+});
