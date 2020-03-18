@@ -25,6 +25,14 @@ _No bugs currently_
 
 _email.com_
 
+## Specs
+
+* _1. If the sentence is over 8 words, only eight are displayed_
+  _A. hfhfhfhhffhhfhfh_
+  _B. hfhfhfhh_
+
+* _2. Output is displayed_
+
 ## Technologies Used
 
 _HTML5, Javascript, CSS, Git, Atom, Webpack, npm_
