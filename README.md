@@ -1,6 +1,6 @@
 # _Journal_
 
-#### _{Brief description of application}, 3/17/2020_
+#### _A website where users right down something and return a certain amount of numbers, 3/17/2020_
 
 #### By _Soroush Azizi_
 
@@ -27,7 +27,7 @@ _email.com_
 
 ## Specs
 
-* _1. If the sentence is over 8 words, only eight are displayed_
+* _1. If the sentence is over 8 words, ONLY eight word are displayed_
   _A. hfhfhfhhffhhfhfh_
   _B. hfhfhfhh_
 
