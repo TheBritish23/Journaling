@@ -10,6 +10,7 @@ var v = vowels.entries();
 $(document).ready(function() {
   $('#writing').submit(function(event) {
     event.preventDefault();
+    document.getElementById("").display=""
     var goal = $('#goal').val();
     var output = p\(goal);
     output.forEach(function(element) {
