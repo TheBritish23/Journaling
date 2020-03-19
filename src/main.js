@@ -4,6 +4,17 @@ import './styles.css';
 var vowels = ["a", "e", "i", "o", "u"]
 var v = vowels.entries();
 
+//business logic for sCripture
+function sCripture() {
+  this.pen = [],
+  this.paper = 0
+}
+
+sCripture.prototype.addWord = function(pencil) {
+  pencil.id = this.assignId();
+  this.pen.push(pencil);
+}
+
 
 
 // user interface logic
