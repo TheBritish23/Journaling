@@ -1,6 +1,9 @@
 import { journal } from './journal';
 import './styles.css';
 
+var vowels = ["a", "e", "i", "o", "u"]
+var v = vowels.entries();
+
 
 
 // user interface logic
