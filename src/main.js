@@ -1,4 +1,4 @@
-import { journal } from './journal';
+import { Journal } from './Journal';
 import './styles.css';
 
 //business logic for sCripture
@@ -34,6 +34,7 @@ $(document).ready(function() {
     var output = (goal);
     output.forEach(function(element) {
       $('#instructions').append("<li>" + element + "</li>");
+      alert("");
     });
   });
 });
