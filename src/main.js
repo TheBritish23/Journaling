@@ -15,15 +15,20 @@ sCripture.prototype.addWord = function(pencil) {
   this.pen.push(pencil);
 }
 
+//business logic for Sentence
+function Sentence(firstHalf) {
+  this.firstHalf = firstHalf
+}
+
 
 
 // user interface logic
 $(document).ready(function() {
   $('#writing').submit(function(event) {
     event.preventDefault();
-    document.getElementById("").display=""
+    document.getElementById("").display
     var goal = $('#goal').val();
-    var output = p\(goal);
+    var output = (goal);
     output.forEach(function(element) {
       $('#instructions').append("<li>" + element + "</li>");
     });
