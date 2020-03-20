@@ -8,17 +8,17 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
-  };
+  },
   devtool: 'eval-source-map',
   devServer: {
   contentBase: './dist'
-  };
+},
   plugins: [
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Simon',
-      template: './src/Simon.html',
+      title: 'Journal',
+      template: './src/index.html',
       inject: 'body'
     })
   ],
@@ -30,7 +30,8 @@ module: {
           'style-loader',
           'css-loader'
         ]
-      };
+      },
+      {
       test: /\.js$/,
       exclude: /node_modules/,
       loader: "eslint-loader"
