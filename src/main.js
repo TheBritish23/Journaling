@@ -20,7 +20,9 @@ function Sentence(firstHalf) {
   this.firstHalf = firstHalf
 }
 
-
+Sentence.prototype.fullWord = function() {
+  return this.firstHalf
+}
 
 // user interface logic
 $(document).ready(function() {
