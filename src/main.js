@@ -1,8 +1,8 @@
 import { journal } from './journal';
 import './styles.css';
 
-var vowels = ["a", "e", "i", "o", "u"]
-var v = vowels.entries();
+var str = ["a", "e", "i", "o", "u"]
+var v = str.split("");
 
 //business logic for sCripture
 function sCripture() {
