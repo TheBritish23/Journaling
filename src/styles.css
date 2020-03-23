@@ -12,12 +12,10 @@ h1 {
 }
 
 label {
-  color: white
+  color: white;
 }
 
-.instructions {
-  color: white
-}
+#instructions { color: white; }
 
  .buttonbutton5 {
  background-color: red;
