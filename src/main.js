@@ -30,10 +30,12 @@ $(document).ready(function() {
     event.preventDefault();
     var goal = $('#goal').val();
     var output = goal.split(" ");
-    console.log("testing", goal);
-    output.forEach(function(element) {
-      $('#instructions').append("<li>" + element + "</li>");
-      alert("");
-    });
+    var outputTest = output.join(" ");
+    console.log("testing", outputTest);
+    $("#instructions").append("<li>" + outputTest + "</li>");
+    // output.forEach(function(element) {
+    //   $('#instructions').append("<li>" + element + "</li>");
+    // });
+    alert("");
   });
 });
