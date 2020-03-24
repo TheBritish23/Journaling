@@ -25,17 +25,17 @@ Sentence.prototype.fullWord = function() {
 
 // user interface logic
 $(document).ready(function() {
-  console.log("document is ready");
+  //console.log("document is ready");
   $('#writing').submit(function(event) {
     event.preventDefault();
     var goal = $('#goal').val();
     var output = goal.split(" ");
     var outputTest = output.join(" ");
-    console.log("testing", outputTest);
+    //console.log("testing", outputTest);
     $("#instructions").append("<li>" + outputTest + "</li>");
     // output.forEach(function(element) {
     //   $('#instructions').append("<li>" + element + "</li>");
     // });
-    alert("");
+    alert("And the 8 words are...");
   });
 });
