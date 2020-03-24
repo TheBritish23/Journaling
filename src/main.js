@@ -19,6 +19,14 @@ function Sentence(firstHalf) {
   this.firstHalf = firstHalf;
 }
 
+function getTeaser(phrase) {
+  return phrase.slice(0, 8);
+}
+
+function countWords(phrase) {
+  return phrase.length;
+}
+
 Sentence.prototype.fullWord = function() {
   return this.firstHalf;
 };
@@ -30,12 +38,13 @@ $(document).ready(function() {
     event.preventDefault();
     var goal = $('#goal').val();
     var output = goal.split(" ");
-    var outputTest = output.join(" ");
+    var teaser = getTeaser(output);
+    var outputTest = teaser.join(" ");
     //console.log("testing", outputTest);
     $("#instructions").append("<li>" + outputTest + "</li>");
     // output.forEach(function(element) {
     //   $('#instructions').append("<li>" + element + "</li>");
     // });
-    alert("And the 8 words are...");
+    alert("The number words you entered are  " + countWords(output));
   });
 });

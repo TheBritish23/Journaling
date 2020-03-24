@@ -15,7 +15,13 @@ label {
   color: white;
 }
 
-#instructions { color: white; }
+#displaybox {
+  color: white
+}
+
+#instructions {
+  color: white;
+}
 
  .buttonbutton5 {
  background-color: red;
