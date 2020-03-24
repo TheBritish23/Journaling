@@ -1,7 +1,7 @@
 import './styles.css';
 
 //business logic for sCripture
-var str = ["a", "e", "i", "o", "u"];
+//var str = ["a", "e", "i", "o", "u"];
 //var v = str.split("");
 
 function sCripture() {
